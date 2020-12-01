@@ -10,7 +10,7 @@
 
 ![screenshot](screenshot/screenshot.png)
 
-可以前往预览 [示例网站](https://privacy.kallydev.com/)（暂未部署最新版本）。
+可以前往预览 [示例网站](https://privacy.kallydev.com/)（暂未部署最新版本-已失效）。
 
 ## 使用方法
 
@@ -77,10 +77,6 @@ CREATE INDEX index_qq ON qq (qq, phone);
 CREATE INDEX index_jd ON jd (email, id_number, phone_number, phone_number);
 ```
 
-4. 导入顺丰库
-
-还没来得及写，欢迎 PR 或者等我明天再写。
-
 ### 编译代码
 
 1. 安装 Yarn
@@ -99,7 +95,7 @@ sudo snap install golang --classic
 3. 下载源代码
 
 ```bash
-git clone http://github.com/kallydev/privacy
+git clone http://github.com/shy421/privacy
 ```
 
 4. 编译前端
